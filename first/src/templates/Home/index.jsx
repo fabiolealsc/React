@@ -53,6 +53,7 @@ export class Home extends Component{
     const noMorePost = page + postsPerPages >= allPosts.length;
     return (
       <section className='container'>
+        <input type="search" /><br/><br/>
         <Posts posts={posts}/>
         <div className="button-container">
           <Button

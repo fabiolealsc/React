@@ -8,6 +8,7 @@ export class Button extends Component{
             <button className="button" onClick={onClick} disabled={disabled}>
                 {text}
             </button>
+            
         );
     }
 }
