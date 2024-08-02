@@ -1,11 +1,15 @@
 import "../Styles/Header.css"
 
-function Header(){
+function Header({ title }){
+    
+    
     return (
         <header>
-            <h1>CRUD - React, Nodejs, SQLite3</h1>
+            <h1>{ title }</h1>
         </header>
     )
 }
+
+Header.propTypes = 'Título';
 
 export default Header;

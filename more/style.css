@@ -1,0 +1,35 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(87, 87, 231);
+    overflow: hidden;
+}
+.header h1{
+    margin-left: 30px;
+}
+.nav_links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 10px;
+    
+}
+
+.nav_links li{
+    background-color: rgb(71, 74, 114);
+    border-radius: 10px;
+}
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 16px 30px;
+}
+.container{
+
+}
